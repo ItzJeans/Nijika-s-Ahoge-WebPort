@@ -13,7 +13,6 @@ Credits listed on the original game page:
 - Programmer: **塔打** (TamaniDamani)
 - Artist: **ナコ** (nako775_)
 
-The user who supplied this port confirmed they have permission to redistribute the game files. Original creative credits and any applicable third-party rights remain with their respective creators and owners.
 
 ## Package and CDN
 
