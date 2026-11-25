@@ -42,25 +42,12 @@ The launcher uses the exact two PNG controls from the provided Heaven For Death 
 
 Their positions and hover effects follow the supplied reference. Both controls are separate from the game canvas and remain visible above it.
 
-## How to publish and play
-
-1. Extract the modified asset ZIP.
-2. Open the extracted `nijikas-ahoge-assets-itzjeans` folder.
-3. Double-click `PUBLISH_TO_NPM.bat` and follow npm's browser login / account verification steps if prompted.
-4. The script checks the exact package version before publishing, runs `npm pack --dry-run`, checks the publish exit code, verifies the published version afterwards, and (when Windows `curl` is available) checks key resource URLs through jsDelivr. It stops if the version already exists or if npm cannot confirm it is unused.
-5. After the package is successfully published, open `nijikas-ahoge.html` in a modern desktop browser.
-
-Do not share npm passwords, one-time codes, recovery codes, or authentication tokens in chat. Enter any required authentication only in the official npm/browser flow.
-
 ## Browser requirements and controls
 
 Use an up-to-date desktop browser with JavaScript modules, WebAssembly, WebGL, Web Workers, and `OffscreenCanvas` support. Chrome or Edge is recommended. The source game primarily uses mouse interaction; no touch controls or substitute controls have been added.
 
 Use the mouse to grab and drag Nijika's ahoge. Original in-game interactions remain as implemented by the source project.
 
-## Language and included assets
-
-The source archive provides one Construct project data file (`data.json`) and no separate language packs or language-selection configuration. This port does not add an invented language selector. No separate font files or plugin packages were present in the supplied ZIP; bundled runtime dependencies and WASM files are kept.
 
 ## Troubleshooting
 
