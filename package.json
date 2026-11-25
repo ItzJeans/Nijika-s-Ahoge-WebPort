@@ -1,0 +1,25 @@
+{
+  "name": "nijikas-ahoge-assets-itzjeans",
+  "version": "1.0.4",
+  "description": "Static browser-game assets for the Construct 3 port launcher of Nijika's Ahoge.",
+  "private": false,
+  "keywords": [
+    "nijika",
+    "ahoge",
+    "construct-3",
+    "browser-game",
+    "game-assets"
+  ],
+  "author": "ItzJeans",
+  "files": [
+    "html-classic.itch.zone/",
+    "static.itch.io/",
+    "launcher-ui/",
+    "README.md",
+    "PORT_REPORT.md",
+    "PUBLISH_TO_NPM.bat"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
